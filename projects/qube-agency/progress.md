@@ -76,6 +76,26 @@ Daily limits hit: 5/5 comments, 4/5 connections
 ### PDCA Eval: Sep 11 (Thursday)
 Check all connection acceptances and any replies. If no responses by Thursday, adjust pitch angle.
 
+## Twitter Outreach PDCA -- Sep 9 (Day 1)
+
+Strategy: reply to + follow physical AI / robotics / egocentric data founders. Target 10+ engagements/day. Account: @Srijan0x (personal).
+
+### Completed today (Sep 9)
+- @axisrobotics (Axis Robotics): Replied to robotics thread + Following
+- @adcock_brett (Brett Adcock, Figure AI CEO, 849.6K followers): Replied to robot autonomy tweet (66.1K views) + Following
+- @chelseabfinn (Chelsea Finn, Physical Intelligence co-founder, 101.7K followers): Replied to pi07 tweet (73.1K views) + Following
+- @svlevine (Sergey Levine, Physical Intelligence co-founder, 136.4K followers): Replied to behavioral cloning data tweet (49.2K views) + Following
+- @pabbeel (Pieter Abbeel, Amazon FAR/Berkeley, 125.6K followers): Replied to OmniRetarget humanoid data tweet (104.6K views) + Following
+- @deepakpathak (Deepak Pathak, SkildAI CEO/CMU, 30.1K followers): Replied to S1 in-context learning tweet (73.7K views) + Following
+- @RussTedrake (Russ Tedrake, Walden Robotics/MIT, 6.5K followers): Following (no substantive tweet to reply to -- 36 posts total)
+
+Total: 6 replies + 7 follows = 13 engagements. KPI (10+) hit.
+
+Reply themes: data coverage/diversity as the real moat vs. scale alone; sim-to-real data gap; environmental diversity for generalization; quality + coverage needing to scale together.
+
+### PDCA Eval: Sep 11 (Thursday)
+Check if any founders engage back. If replies/follows received from targets, identify patterns. Adjust messaging if 0 engagements back.
+
 ---
 
 ## Cold Outreach Performance (Week of Sep 1-8)
