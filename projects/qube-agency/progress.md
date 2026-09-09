@@ -1,6 +1,6 @@
 # Qube Agency - Current Progress
 
-_Last updated: 2026-09-08_
+_Last updated: 2026-09-09_
 
 ## Strategic Frame (Badhan's model)
 Two interdependent sides — deal source and execution source. Progress tracked against both.
@@ -55,6 +55,26 @@ Two interdependent sides — deal source and execution source. Progress tracked 
 - [ ] Source 15-20 iPhone users through Soham/Pranav networks
 - [ ] Purchase headmounts (~15-20 units)
 - [ ] Top up AutoGTM budget, tighten ICP filters, re-activate AI product teams campaign
+
+## LinkedIn Outreach PDCA — Sep 9 (Day 1)
+
+Strategy: comment-then-connect. Max 5 comments/day, max 5 connections/day. No LinkedIn Premium (no DMs to non-connections).
+
+### Completed today (Sep 9)
+- Srikanth Vidapanakal (xSpecies AI): Commented on robotics post + Connected with note [4/5 notes used this month; 0 remaining]
+- Sam Bigdeli (KavAI): Commented on physical AI post + Connected without note
+- Vadim Hortolomei (EMBODIOS): Commented on embodied AI post + Connected without note
+- Karol Hausman (Physical Intelligence): Commented only (3rd+, Follow-only profile, no connect possible)
+- David Boardman (EveryPoint): Commented on CDRA/stockpile post + Connected via ... menu without note (3rd+)
+
+Daily limits hit: 5/5 comments, 4/5 connections
+
+### Pending for Sep 10
+- Steven Fang (Orchestra Data, row 15): Comment + connect
+- Khurram P. (Unknown, row 16): Find recent post, comment + connect
+
+### PDCA Eval: Sep 11 (Thursday)
+Check all connection acceptances and any replies. If no responses by Thursday, adjust pitch angle.
 
 ---
 
