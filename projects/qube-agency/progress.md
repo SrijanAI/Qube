@@ -1,9 +1,30 @@
 # Qube Agency - Current Progress
 
-_Last updated: 2026-09-09_
+_Last updated: 2026-09-10_
 
 ## Strategic Frame (Badhan's model)
 Two interdependent sides -- deal source and execution source. Progress tracked against both.
+
+### Supply Chain Position (Sep 10 meeting clarity)
+Qube is at **Level 4** in the AI data supply chain:
+- Level 1: AI companies / labs (buy data directly)
+- Level 2: Platforms (sell data to AI labs, run their own collection networks)
+- Level 3: Tier 1/2 agencies (Cloudfactory, iMerit, Cogito, Taskmonk -- execute for platforms)
+- Level 4: Qube (sub-executes for agencies)
+
+**September agency KPI**: Break KGen dependency. Lock in 1 deal from a Level 3 agency independent of KGen.
+
+### Agency Approach Correction (Zach, Sep 10)
+Previous approach was **top-down** -- giving agencies a pilot deal to test if they can execute.
+Correct approach is **bottom-up** -- intelligence first:
+1. Find what deals are currently live with them
+2. Identify who their vendors are and what they're executing
+3. Understand what's coming next in their pipeline
+4. Map all options they have for execution
+5. Eliminate those options one by one until Qube is the only card left on the table
+6. Only then pitch -- they buy because they have no other option at our price/speed
+
+Long game: crack Level 3 agencies as sub-vendor → build relationships → get intro to Level 2 platforms → eventually reach AI labs directly.
 
 ---
 
@@ -24,14 +45,15 @@ Two interdependent sides -- deal source and execution source. Progress tracked a
   - SSU-RealityLab -- updated 2 days ago
 
 ### Wing 2: Agency Partnerships
+- **NEW APPROACH (Sep 10)**: Bottom-up intel gathering. Don't lead with offering a deal. First: find what's live with them, who their vendors are, what's next, eliminate their alternatives.
 - Atlas Capture via KGen: LIVE deal, 1-2k hours target Sep. Blocked on execution (no contributors sourced yet).
 - Taskmonk: Reply sent, waiting for response
-- iMerit: Received reply Thursday, sent response Monday. Price floor issue ($8 min CPA).
-- Cloudfactory: Call booking pending (Soham)
-- Cogito: Deal share pending (Soham)
+- iMerit: Received reply Thursday, sent response Monday. Price floor issue ($8 min CPA). **Intel angle**: their $8 floor = their vendor cost floor. Pitch we can execute the same deal below that.
+- Cloudfactory: Call booking pending (Soham). **Next step**: intel call -- what's live, who they use, what's coming
+- Cogito: Deal share pending (Soham). **Intel needed first** before sharing our deal
 - Centific (Eduard K.): Warm intro via Abhishek Vadapalli -- not yet requested
 - Other Tier 1/2 agency outreaches: Srijan + Soham sent Sep 8
-- **To close something in September: pitch as pilot (200-500 hours), not a full contract**
+- **To close something in September: bottom-up first, pilot pitch second**
 
 ### Wing 3: Individual Connection Building (LinkedIn + Twitter + warm intros)
 - **LinkedIn Day 1 (Sep 9)**: 5 comments, 4 connections sent
