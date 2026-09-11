@@ -122,6 +122,16 @@ Long game: crack Level 3 agencies as sub-vendor → build relationships → get 
 - [ ] Source iPhone contributors via alternative channels (LinkedIn post, urban networks)
 - [ ] Find yaak-ai + Allen AI contacts for quality LeRobot outreach
 
+## Sep 11 Meeting -- Decision Making (pending)
+Notes to capture after today's meeting.
+
+### Key insight from pre-meeting research (to bring into discussion):
+- Build AI's Egocentric-100K + Egocentric-1M are now free on HuggingFace (Apache 2.0). Generic bulk egocentric footage is commoditized -- no one will pay for raw hours of miscellaneous factory footage anymore.
+- The actual revenue for Build AI (and XDOF) comes from **custom proprietary data collection** -- specific task, specific environment, specific geography, stays private with the client. Public dataset = portfolio/distribution play.
+- Gap Build AI accidentally created: targeted, task-specific, properly annotated, consent-clean collection from specific Indian manufacturing environments. That's what labs will pay for. Volume play is dead.
+- Competitors are all broad (residential + commercial + agricultural mixed). Nobody is deep on a single Indian manufacturing vertical (auto components, electronics assembly, pharma packaging).
+- Structured short-form task demonstrations (for Skild S1-type deployments) -- completely unclaimed product type.
+
 ## PDCA Eval: Sep 11 (Thursday)
 - Check Twitter reply-backs from Day 1 targets
 - Check LinkedIn connection acceptances from Day 1
