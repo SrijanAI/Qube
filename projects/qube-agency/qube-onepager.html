@@ -1,0 +1,342 @@
+<title>Qube</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+<style>
+:root {
+  --orange: #FF7A2F;
+  --orange-dim: #FF9A5C;
+  --bg: #FFFFFF;
+  --surface: #F8F9FA;
+  --border: #E8EBF0;
+  --text: #1A1D24;
+  --muted: #64748B;
+  --blue: #3C5078;
+  --alt-row: #F4F6F9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111318;
+    --surface: #1A1D24;
+    --border: #2A2E38;
+    --text: #E8EBF2;
+    --muted: #8896AE;
+    --blue: #7A9CC8;
+    --alt-row: #1E2230;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #111318;
+  --surface: #1A1D24;
+  --border: #2A2E38;
+  --text: #E8EBF2;
+  --muted: #8896AE;
+  --blue: #7A9CC8;
+  --alt-row: #1E2230;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.65;
+  padding: 48px 20px 64px;
+}
+
+.page {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header { margin-bottom: 28px; }
+
+.wordmark {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--orange);
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  font-size: 15px;
+  color: var(--muted);
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.doc-type {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.rule {
+  height: 3px;
+  background: var(--orange);
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+/* SECTIONS */
+.section { margin-top: 32px; }
+
+.section-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--orange);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.body-text {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* BULLETS */
+.bullet-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+
+.bullet-list li {
+  font-size: 14px;
+  color: var(--text);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.bullet-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
+.bullet-list li strong { font-weight: 600; }
+
+/* ANNOTATION TYPES */
+.ann-types {
+  font-size: 13.5px;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.ann-sep {
+  color: var(--border);
+  margin: 0 7px;
+  font-weight: 300;
+}
+
+/* TABLES */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  margin-top: 4px;
+}
+
+.data-table th {
+  background: var(--orange);
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 9px 12px;
+  text-align: left;
+}
+
+.data-table td {
+  padding: 9px 12px;
+  vertical-align: top;
+  line-height: 1.55;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table tr:nth-child(odd) td { background: var(--alt-row); }
+.data-table tr:nth-child(even) td { background: var(--bg); }
+
+.tier-label {
+  font-weight: 700;
+  color: var(--orange);
+  white-space: nowrap;
+}
+
+.price-label {
+  font-weight: 600;
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+.cap-label {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+/* FOOTER */
+.footer-rule {
+  height: 1px;
+  background: var(--border);
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.footer {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer strong { color: var(--text); font-weight: 600; }
+.footer a { color: var(--orange); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+.footer .dot { color: var(--border); }
+
+@media (max-width: 480px) {
+  .wordmark { font-size: 34px; }
+  body { padding: 32px 16px 48px; }
+  .data-table { font-size: 12.5px; }
+  .data-table td, .data-table th { padding: 8px 9px; }
+}
+</style>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="wordmark">QUBE</div>
+    <div class="tagline">India's physical AI data collection company</div>
+    <div class="rule"></div>
+  </div>
+
+  <!-- WHAT ARE WE -->
+  <div class="section">
+    <div class="section-label">What Are We</div>
+    <p class="body-text">Qube is a data collection company built for physical AI. We source, record, and deliver egocentric (first-person POV) training data from real-world environments in India -- the kind of data that teaches robots and autonomous systems how humans actually move and work.</p>
+  </div>
+
+  <!-- WHAT WE DO -->
+  <div class="section">
+    <div class="section-label">What We Do</div>
+    <p class="body-text">We run end-to-end data collection projects -- from contributor briefing and recording to QA review and annotation delivery. Our focus is task-specific, environment-specific data from Indian manufacturing settings: auto components, electronics assembly, and pharma packaging.</p>
+  </div>
+
+  <!-- HOW WE DO IT -->
+  <div class="section">
+    <div class="section-label">How We Do It</div>
+    <ul class="bullet-list">
+      <li><strong>In-house execution team</strong> -- trained contributors with head-mounted rigs, briefed on narration and hand visibility standards.</li>
+      <li><strong>Factory floor access</strong> -- direct relationships with manufacturing facilities across India, with employer-level consent frameworks.</li>
+      <li><strong>Structured QA pipeline</strong> -- every video reviewed against narration quality, PII checks, hand visibility, and file standards before delivery.</li>
+      <li><strong>Annotation</strong> -- temporal/action labels, object annotation, pose/keypoint, and task state labels on top of raw footage.</li>
+    </ul>
+  </div>
+
+  <!-- WHY CHOOSE US -->
+  <div class="section">
+    <div class="section-label">Why Choose Us</div>
+    <ul class="bullet-list">
+      <li><strong>Cost advantage</strong> -- India-based execution at a fraction of US or EU collection rates, without compromising on quality or consent standards.</li>
+      <li><strong>India manual-labour workflows are the training target</strong> -- the assembly, packaging, and inspection tasks Indian factory workers perform daily are exactly the task demonstrations industrial robots need, regardless of deployment geography.</li>
+      <li><strong>Task-specific by design</strong> -- every project is structured around specific robot task demonstrations, not generic footage that AI labs have to filter through.</li>
+      <li><strong>DPDP-compliant</strong> -- employer-level consent frameworks, PII-free by design. Egocentric data collected and transferred in full compliance with India's Digital Personal Data Protection Act.</li>
+      <li><strong>Fast pilots</strong> -- low-commitment entry point to validate quality before committing to scale.</li>
+    </ul>
+  </div>
+
+  <!-- ANNOTATION TYPES -->
+  <div class="section">
+    <div class="section-label">Annotation Types</div>
+    <div class="ann-types">
+      Narration<span class="ann-sep">|</span>Action Segments<span class="ann-sep">|</span>Object Labels<span class="ann-sep">|</span>Object State Change<span class="ann-sep">|</span>Task State Labels<span class="ann-sep">|</span>Failure Event Labels<span class="ann-sep">|</span>HOI (Hand Object Interaction)<span class="ann-sep">|</span>Bounding Boxes<span class="ann-sep">|</span>Keypoints<span class="ann-sep">|</span>Gaze (Post-hoc Estimated)<span class="ann-sep">|</span>Environment Metadata
+    </div>
+  </div>
+
+  <!-- DATA TIERS -->
+  <div class="section">
+    <div class="section-label">Data Tiers</div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th style="width:70px">Tier</th>
+          <th>What Is Included</th>
+          <th style="width:150px">Price Range</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tier-label">Tier 1</td>
+          <td>Raw narrated egocentric video, QA-passed for hand visibility, PII, and narration quality.</td>
+          <td class="price-label">$6 – $10 / hr</td>
+        </tr>
+        <tr>
+          <td class="tier-label">Tier 2</td>
+          <td>Tier 1 + action segments, object labels, object state change, task state labels.</td>
+          <td class="price-label">$12 – $18 / hr</td>
+        </tr>
+        <tr>
+          <td class="tier-label">Tier 3</td>
+          <td>Tier 2 + HOI frame-by-frame, failure event labels, bounding boxes.</td>
+          <td class="price-label">$20 – $30 / hr</td>
+        </tr>
+        <tr>
+          <td class="tier-label">Tier 4</td>
+          <td>Tier 3 + phase decomposition, keypoints, environment metadata.</td>
+          <td class="price-label">$30 – $42 / hr</td>
+        </tr>
+        <tr>
+          <td class="tier-label">Tier 5</td>
+          <td>Tier 4 + post-hoc gaze estimation (estimated region, flagged with confidence score).</td>
+          <td class="price-label">$40 – $55 / hr</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CAPABILITIES -->
+  <div class="section">
+    <div class="section-label">Capabilities</div>
+    <table class="data-table">
+      <tbody>
+        <tr>
+          <td style="width:130px" class="cap-label">Languages</td>
+          <td>Hindi, Bengali, Odia, Tamil, Kannada, Gujarati, Punjabi, Marathi, Nepali, Bhojpuri, Assamese, Manipuri, English -- 13 languages across all major Indian regions.</td>
+        </tr>
+        <tr>
+          <td class="cap-label">Project start</td>
+          <td>Ready to begin within 1–2 weeks of project brief and sample approval.</td>
+        </tr>
+        <tr>
+          <td class="cap-label">Volume</td>
+          <td>Pilot runs from 500 hours. Scale up to 10,000+ approved hours per month.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer-rule"></div>
+  <div class="footer">
+    <strong>Srijan</strong>
+    <span class="dot">·</span>
+    <a href="mailto:ldrago@0xqube.xyz">ldrago@0xqube.xyz</a>
+    <span class="dot">·</span>
+    <span>@Srijan0x</span>
+  </div>
+
+</div>
