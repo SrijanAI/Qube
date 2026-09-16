@@ -207,11 +207,55 @@ body {
 .footer a:hover { text-decoration: underline; }
 .footer .dot { color: var(--border); }
 
+/* STATS ROW */
+.stats-row {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0 10px;
+}
+
+.stat-tile {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+
+.stat-num {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--orange);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-lbl {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sectors-line {
+  font-size: 13.5px;
+  color: var(--text);
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.named {
+  color: var(--orange);
+  font-weight: 600;
+}
+
 @media (max-width: 480px) {
   .wordmark { font-size: 34px; }
   body { padding: 32px 16px 48px; }
   .data-table { font-size: 12.5px; }
   .data-table td, .data-table th { padding: 8px 9px; }
+  .stats-row { flex-direction: column; }
 }
 </style>
 
@@ -227,23 +271,23 @@ body {
   <!-- WHAT ARE WE -->
   <div class="section">
     <div class="section-label">What Are We</div>
-    <p class="body-text">Qube is a data collection company built for physical AI. We source, record, and deliver egocentric (first-person POV) training data from real-world environments in India -- the kind of data that teaches robots and autonomous systems how humans actually move and work.</p>
+    <p class="body-text">Qube is a data collection company built for physical AI. We source, record, and deliver egocentric (first-person POV) training data from real-world environments in India — the kind of data that teaches robots and autonomous systems how humans actually move and work.</p>
   </div>
 
   <!-- WHAT WE DO -->
   <div class="section">
     <div class="section-label">What We Do</div>
-    <p class="body-text">We run end-to-end data collection projects -- from contributor briefing and recording to QA review and annotation delivery. Our focus is task-specific, environment-specific data from Indian manufacturing settings: auto components, electronics assembly, and pharma packaging.</p>
+    <p class="body-text">We run end-to-end data collection projects — from contributor briefing and recording to QA review and annotation delivery. Our focus is task-specific, environment-specific data from Indian manufacturing settings: auto components, electronics assembly, and pharma packaging.</p>
   </div>
 
   <!-- HOW WE DO IT -->
   <div class="section">
     <div class="section-label">How We Do It</div>
     <ul class="bullet-list">
-      <li><strong>In-house execution team</strong> -- trained contributors with head-mounted rigs, briefed on narration and hand visibility standards.</li>
-      <li><strong>Factory floor access</strong> -- direct relationships with manufacturing facilities across India, with employer-level consent frameworks.</li>
-      <li><strong>Structured QA pipeline</strong> -- every video reviewed against narration quality, PII checks, hand visibility, and file standards before delivery.</li>
-      <li><strong>Annotation</strong> -- temporal/action labels, object annotation, pose/keypoint, and task state labels on top of raw footage.</li>
+      <li><strong>In-house execution team</strong> — trained contributors with head-mounted rigs, briefed on narration and hand visibility standards.</li>
+      <li><strong>Factory floor access</strong> — direct relationships with manufacturing facilities across India, with employer-level consent frameworks.</li>
+      <li><strong>Structured QA pipeline</strong> — every video reviewed against narration quality, PII checks, hand visibility, and file standards before delivery.</li>
+      <li><strong>Annotation</strong> — temporal/action labels, object annotation, pose/keypoint, and task state labels on top of raw footage.</li>
     </ul>
   </div>
 
@@ -251,11 +295,11 @@ body {
   <div class="section">
     <div class="section-label">Why Choose Us</div>
     <ul class="bullet-list">
-      <li><strong>Cost advantage</strong> -- India-based execution at a fraction of US or EU collection rates, without compromising on quality or consent standards.</li>
-      <li><strong>India manual-labour workflows are the training target</strong> -- the assembly, packaging, and inspection tasks Indian factory workers perform daily are exactly the task demonstrations industrial robots need, regardless of deployment geography.</li>
-      <li><strong>Task-specific by design</strong> -- every project is structured around specific robot task demonstrations, not generic footage that AI labs have to filter through.</li>
-      <li><strong>DPDP-compliant</strong> -- employer-level consent frameworks, PII-free by design. Egocentric data collected and transferred in full compliance with India's Digital Personal Data Protection Act.</li>
-      <li><strong>Fast pilots</strong> -- low-commitment entry point to validate quality before committing to scale.</li>
+      <li><strong>Cost advantage</strong> — India-based execution at a fraction of US or EU collection rates, without compromising on quality or consent standards.</li>
+      <li><strong>India manual-labour workflows are the training target</strong> — the assembly, packaging, and inspection tasks Indian factory workers perform daily are exactly the task demonstrations industrial robots need, regardless of deployment geography.</li>
+      <li><strong>Task-specific by design</strong> — every project is structured around specific robot task demonstrations, not generic footage that AI labs have to filter through.</li>
+      <li><strong>DPDP-compliant</strong> — employer-level consent frameworks, PII-free by design. Egocentric data collected and transferred in full compliance with India's Digital Personal Data Protection Act.</li>
+      <li><strong>Fast pilots</strong> — low-commitment entry point to validate quality before committing to scale.</li>
     </ul>
   </div>
 
@@ -315,7 +359,7 @@ body {
       <tbody>
         <tr>
           <td style="width:130px" class="cap-label">Languages</td>
-          <td>Hindi, Bengali, Odia, Tamil, Kannada, Gujarati, Punjabi, Marathi, Nepali, Bhojpuri, Assamese, Manipuri, English -- 13 languages across all major Indian regions.</td>
+          <td>Hindi, Bengali, Odia, Tamil, Kannada, Gujarati, Punjabi, Marathi, Nepali, Bhojpuri, Assamese, Manipuri, English — 13 languages across all major Indian regions.</td>
         </tr>
         <tr>
           <td class="cap-label">Project start</td>
@@ -329,3 +373,53 @@ body {
     </table>
   </div>
 
+
+  <!-- DATA NETWORK & FACTORY ACCESS -->
+  <div class="section">
+    <div class="section-label">Data Network &amp; Factory Access</div>
+    <p class="body-text">Qube operates a physical network of 100 manufacturing facilities across India, spanning 9 industrial sectors. Our factory-floor relationships give clients direct access to authentic task demonstration data — collected, QA-validated, and annotated through our own pipeline before delivery.</p>
+
+    <div class="stats-row">
+      <div class="stat-tile">
+        <div class="stat-num">100</div>
+        <div class="stat-lbl">Factory Connections</div>
+      </div>
+      <div class="stat-tile">
+        <div class="stat-num">150K hrs</div>
+        <div class="stat-lbl">Industrial Data Network</div>
+      </div>
+      <div class="stat-tile">
+        <div class="stat-num">9</div>
+        <div class="stat-lbl">Manufacturing Sectors</div>
+      </div>
+    </div>
+
+    <p class="sectors-line"><strong>Sectors:</strong> Electronics &middot; Technical Textiles &middot; Garments &middot; Automobile &middot; Perfume &middot; Ancillary &middot; Slippers &middot; Shoes &middot; Leather Works</p>
+
+    <p class="body-text" style="margin-top:8px;font-size:13.5px;"><strong>Off-the-shelf available:</strong> 2,000 hrs electronics assembly &middot; 2,000 hrs automotive manufacturing</p>
+
+    <p class="body-text" style="margin-top:5px;font-size:13.5px;"><strong>Factory connections include:</strong> <span class="named">boAt</span> (electronics) &middot; <span class="named">TVS &middot; Bajaj &middot; BMW</span> (automotive)</p>
+
+    <table class="data-table" style="margin-top:14px;">
+      <tbody>
+        <tr>
+          <td style="width:160px" class="cap-label">Healthcare &amp; Pharma</td>
+          <td>Access to 50+ pathogen labs across India for procedural footage — surgical AI, pharmaceutical manufacturing, and lab automation training data.</td>
+        </tr>
+        <tr>
+          <td class="cap-label">Research-Grade Production</td>
+          <td>200 hours per week of annotated research-grade data on demand for academic and frontier AI teams.</td>
+        </tr>
+        <tr>
+          <td class="cap-label">Household / Consumer AI</td>
+          <td>150 dedicated household contributors with 50+ GoPro rigs and studio setups for home robotics and daily-activity training data.</td>
+        </tr>
+        <tr>
+          <td class="cap-label">Validation Pipeline</td>
+          <td>Every dataset QA-checked through our own pipeline — hand visibility, PII, narration quality, and annotation accuracy. Clients receive clean, model-ready data without raw processing overhead.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
